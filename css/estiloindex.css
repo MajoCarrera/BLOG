@@ -2,8 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #24252A;
-    color: white;
+    color: black;
 }
 
 header{
@@ -11,6 +10,7 @@ header{
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+    background: linear-gradient(150deg, #4baedb, #f06f76);
 }
 
 li, a{
@@ -20,8 +20,9 @@ li, a{
     text-decoration: none;
 }
 
-p, nav, button, h1, h3{
+p, nav, button, h1, h3, h4{
     font-family: 'Montserrat', sans-serif;
+    color: black;
 }
 
 h1{
@@ -29,8 +30,15 @@ h1{
 }
 
 li:hover{
-    background-color: deepskyblue;
+    background: linear-gradient(150deg, #4baedb, #f06f76);
     border-radius: 20px;
+    text-decoration: none;
+}
+
+header li:hover{
+    background: linear-gradient(150deg, #ff8cec, #ac8eff);
+    border-radius: 20px;
+    text-decoration: none;
 }
 
 footer{
@@ -41,6 +49,7 @@ footer{
     text-align: center;
     font-size: 15px;
     box-sizing: border-box;
+    background: linear-gradient(150deg, #4baedb, #f06f76);
 }
 
 .contenedor ul{
@@ -56,11 +65,21 @@ footer{
 
 .menucito{
     position: relative;
-    width: 75%;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     margin-left: auto;
     margin-right: auto;
-    margin-top:auto;
-    background: white;
-    border-radius: 10px;
+
+}
+
+.menucito h2{ 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menucito p{
+    text-align: justify;
+}
+
+video{
+    width: 100%;
 }

@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(150deg, #4baedb, #f06f76);
+}
+
+li, a{
+    display: inline-block;
+    padding: 7px 6px;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+p, nav, button, h1, h3, h4{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+h1{
+    font-weight: 600;
+}
+
+header li:hover{
+    background: linear-gradient(150deg, #4baedb, #f06f76);
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.contenedor li:hover{
+    background: linear-gradient(150deg, #4baedb, #f06f76);
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+header li:hover{
+    background: linear-gradient(150deg, #ff8cec, #ac8eff);
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    box-sizing: border-box;
+    background: linear-gradient(150deg, #4baedb, #f06f76);
+}
+
+.contenedor ul{
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    width: 8%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:auto;
+}
+
+.menucito{
+    position: relative;
+    width: 700px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.menucito h2{ 
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+video{
+    position: static;
+    top: 45%;
+    left: 20%;
+    height:280px; 
+    width: 30%;
+}
